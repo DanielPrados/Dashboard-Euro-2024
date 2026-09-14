@@ -19,9 +19,14 @@ El objetivo principal es desarrollar un entorno interactivo que permita explorar
 - Expected Goals (xG)
 - Regates y conducciones
 - Acciones defensivas
-- Rendimiento de los porteros
+- Acciones de los porteros
 - Redes de pases
-- Evolución del partido y análisis temporal
+- Acciones a balón parado
+- Alineaciones
+- Sistemas de puntuación de dominio y jugadores destacados
+- Presiones
+- Errores
+- Progresiones tras recuperación
 
 ---
 
@@ -55,7 +60,7 @@ Análisis de las principales acciones ofensivas de los equipos:
 - Regates
 - Centros
 - Saques de esquina
-- Faltas ofensivas recibidas
+- Acciones a balón parado
 - Pases al último tercio
 
 ### 🟢 Posesión y dominio
@@ -73,7 +78,7 @@ Estudio de las acciones defensivas realizadas por los equipos:
 - Despejes
 - Bloqueos
 - Presiones
-- Counterpressing
+- Presiones tras pérdida
 
 También se utilizan representaciones espaciales para estudiar la distribución de las acciones defensivas.
 
@@ -83,12 +88,12 @@ Análisis del rendimiento de los porteros mediante acciones como:
 
 - Paradas
 - Goles encajados
-- xG concedido
-- Diferencia entre goles encajados y xG concedido
+- Pases completados
+- Saques de puerta
 
 ### 🔗 Red de pases
 
-Representación de las conexiones entre jugadores para estudiar la estructura y distribución del juego mediante redes de pases.
+Representación de las conexiones entre jugadores para estudiar la estructura y distribución del juego mediante redes de pases en cada partido.
 
 ---
 
@@ -144,7 +149,3 @@ Las visualizaciones y métricas del informe se construyen a partir de los evento
 Este proyecto forma parte de mi portfolio de proyectos de **Data Science y Football Analytics**, y representa una aplicación de técnicas de análisis de datos y visualización al estudio del rendimiento futbolístico.
 
 El objetivo no es únicamente presentar estadísticas, sino convertir los datos de eventos en visualizaciones que permitan interpretar de forma intuitiva el desarrollo y el rendimiento durante los partidos.
-
-Máster en Ciencia de Datos e Ingeniería de Computadores — Universidad de Granada
-
-🔗 [GitHub](https://github.com/DanielPrados)
