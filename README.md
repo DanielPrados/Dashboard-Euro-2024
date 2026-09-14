@@ -4,7 +4,7 @@
 
 Proyecto de análisis y visualización de datos de la **Eurocopa 2024** desarrollado con **Power BI**, utilizando datos de eventos de partidos para estudiar el rendimiento de los equipos y jugadores a lo largo de la competición.
 
-El proyecto combina análisis estadístico, visualizaciones interactivas y representaciones espaciales de las acciones realizadas durante los partidos, con el objetivo de transformar los datos de eventos en información útil para el análisis futbolístico.
+El proyecto se desarrolla como un **dashboard interactivo**, combinando análisis estadístico, visualizaciones interactivas y representaciones espaciales de las acciones realizadas durante los partidos, con el objetivo de transformar los datos de eventos en información útil para el análisis futbolístico.
 
 ---
 
@@ -99,7 +99,7 @@ Representación de las conexiones entre jugadores para estudiar la estructura y 
 
 ## 📊 Algunas visualizaciones
 
-A continuación se muestran algunas de las visualizaciones desarrolladas durante el proyecto correspondientes a la final de la competición.
+A continuación se muestran algunas de las visualizaciones desarrolladas durante el proyecto correspondientes a la **final de la competición**.
 
 ### Redes de pases
 
@@ -119,18 +119,19 @@ A continuación se muestran algunas de las visualizaciones desarrolladas durante
 
 ### Menú principal
 
-<img width="1280" height="719" alt="menú" src="https://github.com/user-attachments/assets/18ccd1f5-255b-4475-8fcd-a35aacf0fa84" />
-
+<img width="1280" height="719" alt="Menú" src="https://github.com/user-attachments/assets/18ccd1f5-255b-4475-8fcd-a35aacf0fa84" />
 
 ---
 
-## 📄 Análisis completo de un partido
+## 📄 Ejemplo de análisis post partido
 
-Como muestra del informe completo, se incluye un PDF con el análisis detallado de uno de los partidos de la competición.
+El proyecto original es un **dashboard interactivo** que permite navegar entre diferentes partidos, equipos y apartados del análisis. Debido a que el archivo de Power BI no se comparte en este repositorio, la interactividad del dashboard no está disponible directamente aquí.
 
-📄 **[Ver análisis completo del partido](analisis-partido.pdf)**
+Como muestra del proyecto, se incluye el documento:
 
-El documento permite observar con mayor detalle cómo se combinan las diferentes métricas y visualizaciones dentro del informe.
+**`Análisis post partido (Portugal vs. Francia).pdf`**
+
+Este documento recoge el análisis completo de un partido y permite visualizar cómo se integran las diferentes métricas y representaciones desarrolladas en el dashboard.
 
 ---
 
@@ -148,4 +149,6 @@ Las visualizaciones y métricas del informe se construyen a partir de los evento
 
 Este proyecto forma parte de mi portfolio de proyectos de **Data Science y Football Analytics**, y representa una aplicación de técnicas de análisis de datos y visualización al estudio del rendimiento futbolístico.
 
-El objetivo no es únicamente presentar estadísticas, sino convertir los datos de eventos en visualizaciones que permitan interpretar de forma intuitiva el desarrollo y el rendimiento durante los partidos.
+El proyecto busca transformar los datos de eventos en un **dashboard interactivo** que facilite la exploración y comprensión del desarrollo de los partidos y del rendimiento de equipos y jugadores.
+
+En este repositorio se comparte una selección de visualizaciones y un **análisis post partido completo como muestra del proyecto**, aunque la versión publicada no conserva la interactividad disponible en el dashboard original.
