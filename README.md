@@ -53,5 +53,5 @@ El informe permite evaluar comportamientos colectivos e individuales mediante in
 ---
 
 ## 📁 Archivos del Repositorio
-* [`Análisis post partido (Eurocopa 2024).pbix`]([./Análisis%20post%20partido%20(Eurocopa%202024).pbix](https://github.com/DanielPrados/Dashboard-Euro-2024/blob/main/An%C3%A1lisis%20post%20partido%20(Eurocopa%202024).pbix)): Archivo fuente editable de Power BI.
+* [`Análisis post partido (Eurocopa 2024).pbix`](./Análisis%20post%20partido%20(Eurocopa%202024).pbix): Archivo fuente editable de Power BI.
 * `data/`: Datasets y tablas de eventos procesadas.
