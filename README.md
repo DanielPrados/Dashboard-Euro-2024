@@ -1,154 +1,57 @@
-# ⚽ Análisis de la Eurocopa 2024 con Power BI
+# 🏆 Dashboard de Análisis Táctico y Rendimiento — Eurocopa 2024
 
-## 📊 Descripción
+<img width="1311" height="734" alt="image" src="https://github.com/user-attachments/assets/9e416288-679a-4412-a749-ea7826ff8a22" />
 
-Proyecto de análisis y visualización de datos de la **Eurocopa 2024** desarrollado con **Power BI**, utilizando datos de eventos de partidos para estudiar el rendimiento de los equipos y jugadores a lo largo de la competición.
-
-El proyecto se desarrolla como un **dashboard interactivo**, combinando análisis estadístico, visualizaciones interactivas y representaciones espaciales de las acciones realizadas durante los partidos, con el objetivo de transformar los datos de eventos en información útil para el análisis futbolístico.
-
----
-
-## 🎯 Objetivo
-
-El objetivo principal es desarrollar un entorno interactivo que permita explorar el rendimiento de los equipos y jugadores de la Eurocopa 2024 desde diferentes perspectivas:
-
-- Producción ofensiva
-- Posesión y dominio territorial
-- Pases y construcción del juego
-- Tiros y ocasiones de gol
-- Expected Goals (xG)
-- Regates y conducciones
-- Acciones defensivas
-- Acciones de los porteros
-- Redes de pases
-- Acciones a balón parado
-- Alineaciones
-- Sistemas de puntuación de dominio y jugadores destacados
-- Presiones
-- Errores
-- Progresiones tras recuperación
+## 📌 Descripción del Proyecto
+Cuadro de mando interactivo desarrollado en **Power BI** enfocado en el análisis táctico avanzado y la evaluación del rendimiento defensivo/ofensivo de las selecciones participantes en la **Eurocopa 2024**.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
-
-- **Power BI**
-- **DAX**
-- **Python**
-- **Pandas**
-- **Matplotlib**
-- **mplsoccer**
-- **StatsBomb Open Data**
-
-Python se utiliza principalmente para generar visualizaciones futbolísticas y representaciones espaciales a partir de los datos de eventos.
+## 🔍 Métricas Tácticas Clave
+El informe permite evaluar comportamientos colectivos e individuales mediante indicadores cuantitativos de rendimiento:
+* **PPDA (Passes Per Defensive Action):** Medición de la intensidad y eficacia de la presión en campo contrario.
+* **Presiones tras pérdida:** Análisis del volumen de recuperación inmediata y duelos ganados en transición defensiva.
+* **Altura media de bloque (m):** Posicionamiento medio de la línea de presión en el terreno de juego.
+* **Acciones en último tercio:** Porcentaje de presiones ejercidas en zona de creación/iniciación rival.
 
 ---
 
-## 📈 Estructura del análisis
-
-El informe está organizado en diferentes apartados que permiten analizar los partidos desde distintas perspectivas.
-
-### ⚔️ Producción ofensiva
-
-Análisis de las principales acciones ofensivas de los equipos:
-
-- Tiros y goles
-- Expected Goals (xG)
-- Asistencias
-- Pases clave
-- Conducciones
-- Regates
-- Centros
-- Saques de esquina
-- Acciones a balón parado
-- Pases al último tercio
-
-### 🟢 Posesión y dominio
-
-Análisis de la posesión y del control territorial durante el partido, incluyendo su evolución temporal y los diferentes momentos del encuentro.
-
-### 🛡️ Defensa
-
-Estudio de las acciones defensivas realizadas por los equipos:
-
-- Duelos
-- 50/50
-- Recuperaciones
-- Intercepciones
-- Despejes
-- Bloqueos
-- Presiones
-- Presiones tras pérdida
-
-También se utilizan representaciones espaciales para estudiar la distribución de las acciones defensivas.
-
-### 🧤 Porteros
-
-Análisis del rendimiento de los porteros mediante acciones como:
-
-- Paradas
-- Goles encajados
-- Pases completados
-- Saques de puerta
-
-### 🔗 Red de pases
-
-Representación de las conexiones entre jugadores para estudiar la estructura y distribución del juego mediante redes de pases en cada partido.
+## ✨ Lo más destacado del Dashboard
+* **📊 Comparativa Directa entre Selecciones:** Panel cara a cara para analizar métricas de evento y presión.
+* **🐍 Integración con Python:** Incorporación de visuales personalizados en Python para la representación gráfica de datos de eventos y mapas tácticos.
+* **🔀 Filtros de Evento y Jugador:** Selección dinámica para identificar los futbolistas con mayor volumen de acciones positivas (defensivas, ofensivas, pases completados) o errores.
 
 ---
 
-## 📊 Algunas visualizaciones
-
-A continuación se muestran algunas de las visualizaciones desarrolladas durante el proyecto correspondientes a la **final de la competición**.
-
-### Redes de pases
-
-<img width="1280" height="717" alt="Redes de pases" src="https://github.com/user-attachments/assets/66919a14-c1c1-464c-b126-02f879f265e9" />
-
-### Tiros y xG
-
-<img width="1280" height="721" alt="Tiros y xG" src="https://github.com/user-attachments/assets/402458e5-4bf0-4cf6-bfe0-b6911684f607" />
-
-### Mapa de presiones
-
-<img width="1280" height="720" alt="Mapa de presiones" src="https://github.com/user-attachments/assets/b4f7d925-afd1-4638-aa63-8fef0ed253ee" />
-
-### Distribución de posesión
-
-<img width="1280" height="719" alt="Posesión" src="https://github.com/user-attachments/assets/3880e0eb-b03a-45c4-a76b-8c75c55e614d" />
-
-### Menú principal
-
-<img width="1280" height="719" alt="Menú" src="https://github.com/user-attachments/assets/18ccd1f5-255b-4475-8fcd-a35aacf0fa84" />
+## 🛠️ Stack Tecnológico
+* **Power BI Desktop:** Modelado de datos (DAX), maquetación y diseño de interfaz.
+* **Python:** Generación de gráficos tácticos y tratamiento de eventos.
+* **Estructura de Datos:** Modelado dimensional a partir de registros de partidos y eventos oficiales.
 
 ---
 
-## 📄 Ejemplo de análisis post partido
+## 📸 Vistas del Informe
 
-El proyecto original es un **dashboard interactivo** que permite navegar entre diferentes partidos, equipos y apartados del análisis. Debido a que el archivo de Power BI no se comparte en este repositorio, la interactividad del dashboard no está disponible directamente aquí.
+### 1. Redes de pases (España vs. Inglaterra)
+<img width="1309" height="736" alt="image" src="https://github.com/user-attachments/assets/1baa8cc9-ca8c-4642-b81c-fc65257e80a0" />
 
-Como muestra del proyecto, se incluye el documento:
+### 2. Tiros y goles (España vs. Francia)
+<img width="1309" height="733" alt="image" src="https://github.com/user-attachments/assets/36c8bb29-e2a8-49c3-8ab1-8efc570e604d" />
 
-**`Análisis post partido (Portugal vs. Francia).pdf`**
+### 3. Distribución de posesión (Inglaterra vs. Suiza)
+<img width="1309" height="734" alt="image" src="https://github.com/user-attachments/assets/25e9c9ec-2e8f-4173-abd7-e9b3a18bc230" />
 
-Este documento recoge el análisis completo de un partido y permite visualizar cómo se integran las diferentes métricas y representaciones desarrolladas en el dashboard.
+### 4. Jugadores destacados (Portugal vs. Francia)
+<img width="1308" height="736" alt="image" src="https://github.com/user-attachments/assets/e26b3808-fd5a-4c98-b40d-594b0da13958" />
+
+### 5. Distribución de la presión (Alemania vs. Escocia)
+<img width="1309" height="735" alt="image" src="https://github.com/user-attachments/assets/538ae2ae-5477-4f4d-b451-200f720f3eed" />
+
+
+
 
 ---
 
-## 📊 Datos
-
-Los datos utilizados proceden de **StatsBomb Open Data** y corresponden a los partidos de la **Eurocopa 2024**.
-
-Las visualizaciones y métricas del informe se construyen a partir de los eventos registrados durante los partidos.
-
-**Fuente:** StatsBomb Open Data.
-
----
-
-## 💻 Sobre el proyecto
-
-Este proyecto forma parte de mi portfolio de proyectos de **Data Science y Football Analytics**, y representa una aplicación de técnicas de análisis de datos y visualización al estudio del rendimiento futbolístico.
-
-El proyecto busca transformar los datos de eventos en un **dashboard interactivo** que facilite la exploración y comprensión del desarrollo de los partidos y del rendimiento de equipos y jugadores.
-
-En este repositorio se comparte una selección de visualizaciones y un **análisis post partido completo como muestra del proyecto**, aunque la versión publicada no conserva la interactividad disponible en el dashboard original.
+## 📁 Archivos del Repositorio
+* [`Análisis post partido (Eurocopa 2024).pbix`](./Análisis%20post%20partido%20(Eurocopa%202024).pbix): Archivo fuente editable de Power BI.
+* `data/`: Datasets y tablas de eventos procesadas.
